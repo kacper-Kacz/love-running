@@ -1,0 +1,31 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+/* Reset browser defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout base */
+body {
+  font-family: 'Lato', sans-serif;
+  color: #3a3a3a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Heading */
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  margin: 20px;
+}
+
+/* Section spacing */
+main, footer {
+  margin: 20px;
+}
+
+
